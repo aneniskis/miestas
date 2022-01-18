@@ -1,0 +1,110 @@
+.form {
+    width: 100%;
+    margin-top: 30px;
+    border:transparent;
+    background-color: transparent;
+    
+}
+.form > .form-row{
+    width: 100%;
+    border: 1px solid grey;
+    padding:10px;
+    /* background-color: white; */
+}
+.form >.form-row > label {
+    width: 100%;
+    font-size: 12px;
+    color: #1F304F;
+
+}
+.form >.form-row > input {
+    width: 100%;
+    font-size: 13px;
+    color: blue;
+    border: none;
+}
+::placeholder{
+    color:#3751FF;
+    font-weight: bold;
+}
+.form >.form-row:hover {
+    border-left-color: blue;
+    border-left-style: bold;
+    border-left-width: 2px;
+
+}
+.form > .form-row:first-child{
+
+
+}
+.form >.form-row:nth-child(2){
+
+
+}
+
+.form >.form-row:nth-child(3){
+    border: none;
+    padding-left: 0;
+}
+
+.form >.form-row:nth-child(4){
+    border: none;
+    padding-left: 0;
+}
+.form >.form-row >.checkbox{
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left:0;
+    margin-top: 10px; 
+    position: relative;
+    margin-left: 15px; 
+}
+.form >.form-row >.checkbox > input {
+    position: absolute;
+    top: 55%;
+    left: -3%;
+    transform: translate(-50%, -50%);
+    
+}
+.form >.form-row >.checkbox > .link {
+    text-decoration: none;
+    color: grey;
+    float: right;
+}
+.form >.form-row >.button {
+    margin-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.form >.form-row >.button:first-child {
+    background-color: #3751FF;
+    border: none;
+    color: white;
+}
+.form >.form-row >.button:last-child{
+    background-color: white;
+    border: 1px solid #3751FF;
+    color: #3751FF;
+}
+.bottom {
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 30px;
+    line-height: 15px;
+    
+}
+.bottom >.link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #3751FF;
+    padding: 20px;
+}
+.bottom > span {
+    color: grey;
+}
