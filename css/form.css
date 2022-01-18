@@ -3,23 +3,25 @@
     margin-top: 30px;
     border:transparent;
     background-color: transparent;
+    height: px;
     
 }
 .form > .form-row{
     width: 100%;
     border: 1px solid grey;
-    padding:10px;
+    padding:15px;
     /* background-color: white; */
 }
 .form >.form-row > label {
     width: 100%;
-    font-size: 12px;
+    font-size: 15px;
     color: #1F304F;
+    
 
 }
 .form >.form-row > input {
     width: 100%;
-    font-size: 13px;
+    font-size: 15px;
     color: blue;
     border: none;
 }
@@ -62,8 +64,8 @@
 }
 .form >.form-row >.checkbox > input {
     position: absolute;
-    top: 55%;
-    left: -3%;
+    top: 52%;
+    left: -2%;
     transform: translate(-50%, -50%);
     
 }
@@ -73,18 +75,18 @@
     float: right;
 }
 .form >.form-row >.button {
-    margin-right: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 3px;
     font-weight: bolder;
     margin-top: 20px;
 }
 .form >.form-row >.button:first-child {
     background-color: #3751FF;
-    border: none;
+    border: 1px solid #3751FF;
     color: white;
 }
 .form >.form-row >.button:last-child{
@@ -103,7 +105,7 @@
     text-decoration: none;
     font-weight: bolder;
     color: #3751FF;
-    padding: 20px;
+    padding: 30px;
 }
 .bottom > span {
     color: grey;
