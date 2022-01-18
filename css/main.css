@@ -23,6 +23,7 @@ body {
     float: right;
     background-repeat: no-repeat;
     background-position: left;
+    position: relative;
 
 }
 .left-column {
@@ -32,16 +33,18 @@ body {
     float: left;
     padding: 50px; 
     background: rgb(246,248,252);
-    background: radial-gradient(circle, rgba(246,248,252,0.9752275910364145) 2%, rgba (249,250,254,0.9556197478991597) 100%);     
+    background: radial-gradient    (circle, rgba(246,248,252,0.    9752275910364145) 2%, rgba(249,    250,254,0.9556197478991597)     100%); 
     /* background-color: aquamarine; */
     /* padding-top: 80px;
     padding-bottom: 80px; */
+    /* position: absolute; */
+    
 }
-
 .title {
     color: #3751FF;
     font-size: 25px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 .text {
     color: #1F3051;
